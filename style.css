@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.m_header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.m_header h1{
+    text-align: center;
+}
+
+ul{
+    display:inline-flex;
+}
+
+.m_header li{
+    margin-left: 43px;
+    list-style: none;
+    font-size: 20px;
+}
+
+li a{
+    text-decoration: none;
+}
+.logo_color{
+    color: rgb(255, 109, 80);
+}
+
+.k_primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    /* font-weight: 700;
+    border-radius: 2px; */
+
+}
