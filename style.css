@@ -5,37 +5,90 @@
 
 .m_header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
 }
 
 .m_header h1{
     text-align: center;
 }
 
+.main_class{
+    font-size: 45px;
+    color: black;
+    font-weight: bolder;
+
+}
+
 ul{
-    display:inline-flex;
+    display:flex;
 }
 
 .m_header li{
-    margin-left: 43px;
+    margin-left: 24px;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
 }
 
 li a{
     text-decoration: none;
 }
 .logo_color{
-    color: rgb(255, 109, 80);
+    color: #FD6E0A;
 }
 
 .k_primary{
     background-color: #FD6E0A;
     font-size: 20px;
-    padding: 10px;
     border: 0px;
     color: white;
-    /* font-weight: 700;
-    border-radius: 2px; */
+    font-weight: 700;
+    border-radius: 5px;
 
+}
+header{
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-image: url('images/header_bg.png');
+    background-position: bottom right;
+}
+
+/* .btn_control{
+    padding: 0px;
+    margin: 10px;
+} */
+.banner{
+    padding: 30px 30px 0px 150px ;
+    display: flex;
+    align-items: center;
+}
+
+/* }
+.banner img{
+    width: 400px;
+    margin: 150px;
+}
+.b_tittle{
+    font-size: 60px;
+    font-weight: 700;
+}
+.b_gratting{
+    font-size: 20px;
+} */
+
+.banner img{
+    width: 400px;
+}
+
+
+.b-title{
+    font-size: 60px;
+}
+.b-greetting{
+           font-size: 20px;
+}
+.b-des{
+    font-size: 20px;
 }
